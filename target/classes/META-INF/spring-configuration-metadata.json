@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "auth",
+      "type": "gmc.project.blockchain.configurations.AuthConfig",
+      "sourceType": "gmc.project.blockchain.configurations.AuthConfig"
+    },
+    {
+      "name": "spring.mail",
+      "type": "gmc.project.blockchain.configurations.MailConfig",
+      "sourceType": "gmc.project.blockchain.configurations.MailConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "auth.auth-url",
+      "type": "java.lang.String",
+      "sourceType": "gmc.project.blockchain.configurations.AuthConfig"
+    },
+    {
+      "name": "auth.expeiry",
+      "type": "java.lang.Long",
+      "sourceType": "gmc.project.blockchain.configurations.AuthConfig"
+    },
+    {
+      "name": "auth.issuer",
+      "type": "java.lang.String",
+      "sourceType": "gmc.project.blockchain.configurations.AuthConfig"
+    },
+    {
+      "name": "auth.jwt-secret",
+      "type": "java.lang.String",
+      "sourceType": "gmc.project.blockchain.configurations.AuthConfig"
+    },
+    {
+      "name": "auth.refresh-token",
+      "type": "java.lang.Long",
+      "sourceType": "gmc.project.blockchain.configurations.AuthConfig"
+    },
+    {
+      "name": "spring.mail.host",
+      "type": "java.lang.String",
+      "sourceType": "gmc.project.blockchain.configurations.MailConfig"
+    },
+    {
+      "name": "spring.mail.password",
+      "type": "java.lang.String",
+      "sourceType": "gmc.project.blockchain.configurations.MailConfig"
+    },
+    {
+      "name": "spring.mail.port",
+      "type": "java.lang.Integer",
+      "sourceType": "gmc.project.blockchain.configurations.MailConfig"
+    },
+    {
+      "name": "spring.mail.username",
+      "type": "java.lang.String",
+      "sourceType": "gmc.project.blockchain.configurations.MailConfig"
+    }
+  ],
+  "hints": []
+}
